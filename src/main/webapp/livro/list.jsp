@@ -23,6 +23,6 @@
                 </c:forEach>
         </table>
 
-        <h1>Lista de livros!!! Vivian Relvas</h1>
+        <h1>Lista de livros!!! Vivian Relvas :)</h1>
     </body>
 </html>
