@@ -15,10 +15,10 @@
         <form action="insert" method="post">
             <label for="titulo">Título</label>
             <input type="text" name="titulo"/>
-            <td> <a href="/livro/update/${l.id}" class="btn btn-secondary">Atualizar livro</a></td>
-            <td> <a href="/livro/delete/${l.id}" class="btn btn-danger">Deletar livro</a></td>
+            <td> <a href="/livro/update/${l.id}" class="btn btn-secondary">Atualizar</a></td>
+            <td> <a href="/livro/delete/${l.id}" class="btn btn-danger">Deletar</a></td>
             <a href="/livro/list" class="btn btn-warning">Voltar</a>
-            <a href="/livro/list" class="btn btn-success">Salvar</a>
+            <a href="/livro/insert" class="btn btn-success">Salvar</a>
            
         </form>
          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
