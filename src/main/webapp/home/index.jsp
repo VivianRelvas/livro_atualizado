@@ -8,5 +8,6 @@
     </head>
     <body>
         <h1>Lista de Livros!!! Biblioteca Virtual</h1>
+        <td><a href="/livro/list" class="btn btn-warning">Clique aqui</a></td>
     </body>
 </html>
