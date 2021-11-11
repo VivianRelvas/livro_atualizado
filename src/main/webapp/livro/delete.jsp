@@ -14,8 +14,11 @@
         <p>Tem certeza que deseja deletar o livro<em>"${livro.titulo}"</em>?</>
         <form action="/livro/delete" method="post">
             <input type="hidden" name="id" value="${livro.id}"/>   //hidden esconde o id
-                 
-           <a href="/livro/list">Voltar</a>
+            
+            <td> <a href="/livro/delete/${l.id}" class="btn btn-secondary">Atualizar</a></td>
+            <a href="/livro/list" class="btn btn-warning">Voltar</a>
+            <a href="/livro/insert" class="btn btn-success">Salvar</a>
+              
             <input type="submit" value="Excluir"/>
         </form>
         </body>

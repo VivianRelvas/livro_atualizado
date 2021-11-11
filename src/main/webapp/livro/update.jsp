@@ -16,8 +16,10 @@
             <label for="titulo">Título</label>
 
             <input type="text" name="titulo" value="${livro.titulo}"/>
-
-            <a href="/livro/list">Voltar</a>
+            <td> <a href="/livro/update/${l.id}" class="btn btn-danger">Deletar</a></td>
+            <a href="/livro/list" class="btn btn-warning">Voltar</a>
+            <a href="/livro/insert" class="btn btn-success">Salvar</a>
+                        
             <input type="submit" value="Salvar"/>
         </form>
         </body>
