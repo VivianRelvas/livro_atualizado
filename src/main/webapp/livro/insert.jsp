@@ -15,11 +15,11 @@
         <form action="insert" method="post">
             <label for="titulo">Título</label>
             <input type="text" name="titulo"/>
-            <td> <a href="/livro/update/${l.id}" class="btn btn-secondary">Atualizar</a></td>
-            <td> <a href="/livro/delete/${l.id}" class="btn btn-danger">Deletar</a></td>
-            <a href="/livro/list" class="btn btn-warning">Voltar</a>
-            <a href="/livro/insert" class="btn btn-success">Salvar</a>
-           
+            <td><a href="/livro/insert/${l.id}" class="btn btn-success">Salvar</a></td>
+            <td><a href="/livro/update/${l.id}" class="btn btn-warning">Atualizar</a></td>
+            <td><a href="/livro/delete/${l.id}" class="btn btn-danger">Deletar</a></td>
+            <a href="/livro/list" class="btn btn-secondary">Voltar</a>
+         
         </form>
          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>        

@@ -17,7 +17,7 @@
 
             <input type="text" name="titulo" value="${livro.titulo}"/>
             <td> <a href="/livro/update/${l.id}" class="btn btn-danger">Deletar</a></td>
-            <a href="/livro/list" class="btn btn-warning">Voltar</a>
+            <a href="/livro/list" class="btn btn- secondary">Voltar</a>
             <a href="/livro/insert" class="btn btn-success">Salvar</a>
                         
             <input type="submit" value="Salvar"/>
